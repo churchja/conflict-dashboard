@@ -338,5 +338,26 @@
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0
+  },
+  {
+    "timestamp": "2026-03-13 00:26:01",
+    "overall_status": "SEVERE",
+    "oil_price": 95.37,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.35,
+    "gdelt_events": 120,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Direct military conflict is actively underway between Iran and the US/allies. Iran has conducted deadly strikes on fuel tankers killing at least one civilian, launched debilitating cyberattacks on US infrastructure, and the Revolutionary Guards have vowed continued attacks. Trump claims Iran is near defeat while Iran threatens prolonged war, indicating an active shooting war with escalating economic impacts including fuel shortages affecting multiple countries.",
+    "us_fatalities": 0,
+    "all_parties_fatalities": 1,
+    "maritime_incidents": 9,
+    "maritime_high_severity": 2,
+    "jmic_threat_level": null,
+    "jmic_tanker_transits": null,
+    "jmic_vessel_incidents": 0,
+    "war_cost_total_bn": 37.8,
+    "war_cost_daily_bn": 0.2
   }
 ]
