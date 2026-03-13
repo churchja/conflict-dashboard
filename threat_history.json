@@ -570,5 +570,23 @@
     "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
     "war_cost_daily_bn": 1.0
+  },
+  {
+    "timestamp": "2026-03-13 17:51:31",
+    "overall_status": "SEVERE",
+    "oil_price": 98.71,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.19,
+    "gdelt_events": 168,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Active US-Iran war is ongoing with confirmed military casualties, aircraft losses, and no diplomatic resolution in sight. Iranian leadership vows continued conflict while US experiences combat losses including aircraft crashes in Iraq. Domestic terrorist incidents potentially linked to regional tensions are occurring on US soil.",
+    "us_fatalities": 13,
+    "all_parties_fatalities": 1200,
+    "maritime_incidents": 9,
+    "maritime_high_severity": 1,
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
   }
 ]
