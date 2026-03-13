@@ -233,5 +233,21 @@
     "claude_summary": "Active military conflict is underway between Iran and US/regional allies. Iranian strikes have hit civilian infrastructure in Bahrain and disrupted Gulf shipping. Energy markets are reacting sharply to ongoing hostilities.",
     "us_fatalities": 0,
     "all_parties_fatalities": 0
+  },
+  {
+    "timestamp": "2026-03-13 00:00:12",
+    "overall_status": "SEVERE",
+    "oil_price": 95.32,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.34,
+    "gdelt_events": 208,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Direct military conflict is actively underway between the US and Iran. US forces have conducted extensive strikes against Iranian targets, with Trump stating there is practically nothing left to target. Iran has retaliated with attacks on US-owned oil infrastructure, resulting in at least one confirmed civilian fatality.",
+    "us_fatalities": 0,
+    "all_parties_fatalities": 1,
+    "maritime_incidents": 10,
+    "maritime_high_severity": 3
   }
 ]
