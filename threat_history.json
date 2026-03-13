@@ -516,5 +516,23 @@
     "jmic_vessel_incidents": 0,
     "war_cost_total_bn": 45.0,
     "war_cost_daily_bn": 1.0
+  },
+  {
+    "timestamp": "2026-03-13 12:56:06",
+    "overall_status": "SEVERE",
+    "oil_price": 97.41,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.23,
+    "gdelt_events": 296,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "The situation shows active military escalation with a US-Israel strike killing Iran's Supreme Leader Khamenei, Israeli attacks on central Beirut, and Iran potentially withdrawing from the World Cup amid safety concerns. Cyberattack threats and a synagogue attack in Michigan indicate spillover violence and heightened tensions across multiple domains.",
+    "us_fatalities": 13,
+    "all_parties_fatalities": 1200,
+    "maritime_incidents": 8,
+    "maritime_high_severity": 2,
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
   }
 ]
