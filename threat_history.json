@@ -319,5 +319,24 @@
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0
+  },
+  {
+    "timestamp": "2026-03-13 00:16:31",
+    "overall_status": "SEVERE",
+    "oil_price": 95.49,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -2.93,
+    "gdelt_events": 139,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Direct military strikes are occurring between Iran and US-linked targets with confirmed fatalities. Iran has attacked fuel tankers and launched cyberattacks on critical US infrastructure, while threatening prolonged war. Multiple countries are preparing for fuel shortages and regional impact, indicating active combat operations.",
+    "us_fatalities": 0,
+    "all_parties_fatalities": 1,
+    "maritime_incidents": 10,
+    "maritime_high_severity": 3,
+    "jmic_threat_level": null,
+    "jmic_tanker_transits": null,
+    "jmic_vessel_incidents": 0
   }
 ]
