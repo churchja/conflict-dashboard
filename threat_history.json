@@ -10,7 +10,9 @@
     "claude_threat": "SEVERE",
     "claude_confidence": "High",
     "claude_summary": "Active military conflict is underway between the US and Iran, with direct kinetic operations in progress. The situation includes attacks on maritime vessels in critical waterways, cyberattacks on US infrastructure, and significant economic disruption from sustained combat operations.",
-    "est_fatalities": 1
+    "est_fatalities": 1,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 21:07:53",
@@ -23,7 +25,9 @@
     "claude_threat": "SEVERE",
     "claude_confidence": "High",
     "claude_summary": "An active war is ongoing between Israel/US and Iran following the assassination of Supreme Leader Khamenei and top military officials. The conflict has caused mass displacement of over 3 million Iranians, ongoing military strikes including attacks on tankers, and global fuel crisis affecting Asia with emergency economic measures being implemented.",
-    "est_fatalities": 50000
+    "est_fatalities": 50000,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 21:12:07",
@@ -36,7 +40,9 @@
     "claude_threat": "SEVERE",
     "claude_confidence": "High",
     "claude_summary": "An active war between Israel/US and Iran is underway, featuring the assassination of Supreme Leader Khamenei and top Iranian military officials, ongoing Iranian strikes, and massive civilian displacement. The conflict has created a global fuel crisis affecting Asia and shows no signs of de-escalation according to statements from Trump and Iran.",
-    "est_fatalities": 50000
+    "est_fatalities": 50000,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 21:18:47",
@@ -50,7 +56,9 @@
     "claude_confidence": "High",
     "claude_summary": "Iran has conducted attacks on Gulf states prompting UN Security Council intervention, threatened drone attacks on US targets (Oscars), and proxy forces (Hezbollah) are actively exchanging fire with Israel. The US is releasing strategic oil reserves in response to supply disruptions, while the UK-US relationship is strained over the conflict, indicating a major regional crisis is underway.",
     "us_fatalities": 0,
-    "all_parties_fatalities": 0
+    "all_parties_fatalities": 0,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 21:23:50",
@@ -64,7 +72,9 @@
     "claude_confidence": "High",
     "claude_summary": "Active warfare is underway between Israel, Iran, and proxies with massive civilian casualties and leadership assassinations. Iran is conducting attacks on Gulf states and threatening Western targets, while over 3 million people are displaced by war. Both Trump and Iran signal no quick resolution to ongoing hostilities.",
     "us_fatalities": 1,
-    "all_parties_fatalities": 171
+    "all_parties_fatalities": 171,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 21:39:27",
@@ -78,7 +88,9 @@
     "claude_confidence": "High",
     "claude_summary": "The United States is engaged in active warfare with Iran, involving direct military strikes, massive displacement, and significant casualties including the bombing of a civilian school. The conflict has destabilized regional oil infrastructure, triggered emergency oil reserve releases, and created widespread humanitarian crisis with over 3 million displaced persons.",
     "us_fatalities": 0,
-    "all_parties_fatalities": 171
+    "all_parties_fatalities": 171,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 22:12:10",
@@ -92,7 +104,9 @@
     "claude_confidence": "High",
     "claude_summary": "Active military conflict is underway between the US and Iran with direct strikes on civilian infrastructure, ongoing attacks on critical oil infrastructure in Iraqi waters, and cyberattacks on Western companies. Iran is targeting Gulf airports and oil facilities while the US conducted a deadly strike on an Iranian school, indicating a significant escalation beyond proxy warfare into direct engagement.",
     "us_fatalities": 0,
-    "all_parties_fatalities": 1
+    "all_parties_fatalities": 1,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 22:14:53",
@@ -106,7 +120,9 @@
     "claude_confidence": "High",
     "claude_summary": "Active military conflict is underway between the US and Iran with direct strikes on civilian infrastructure, including a US strike on an Iranian elementary school and Iranian attacks on Gulf airports and Iraqi oil ports. Oil infrastructure is burning, markets are spiking toward $100/barrel, and both sides signal prolonged conflict with no de-escalation in sight.",
     "us_fatalities": 0,
-    "all_parties_fatalities": 1
+    "all_parties_fatalities": 1,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 22:15:23",
@@ -120,7 +136,9 @@
     "claude_confidence": "High",
     "claude_summary": "Active military conflict is underway between the US and Iran with direct strikes causing civilian casualties, infrastructure attacks, and regional spillover. Iran is conducting attacks on Gulf neighbors' airports and Iraqi oil facilities while cyber warfare targets Western companies. Oil markets are in crisis with prices approaching $100 and tankers burning in Iraqi waters.",
     "us_fatalities": 0,
-    "all_parties_fatalities": 1
+    "all_parties_fatalities": 1,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 22:18:24",
@@ -134,7 +152,9 @@
     "claude_confidence": "High",
     "claude_summary": "Direct military confrontation between US, Iran, and Israel is underway with confirmed casualties on multiple sides. Iran has launched coordinated attacks on Iraqi oil infrastructure, shipping, and Israel's busiest airport, while the US conducted a strike that killed civilians at an Iranian school. US troops have sustained serious combat injuries including amputations and brain injuries from Iranian strikes.",
     "us_fatalities": 0,
-    "all_parties_fatalities": 1
+    "all_parties_fatalities": 1,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 22:28:43",
@@ -148,7 +168,9 @@
     "claude_confidence": "High",
     "claude_summary": "Active military conflict between US, Israel, and Iran with direct strikes, confirmed casualties including US troops, and major infrastructure attacks. Oil shipping disruptions and attacks on civilian infrastructure indicate significant escalation beyond proxy warfare.",
     "us_fatalities": 0,
-    "all_parties_fatalities": 1
+    "all_parties_fatalities": 1,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 22:31:08",
@@ -162,7 +184,9 @@
     "claude_confidence": "High",
     "claude_summary": "Active military confrontation is underway between the US, Israel, and Iran with direct strikes, confirmed casualties including US troops requiring amputations, and widespread regional impacts. Oil infrastructure attacks have disrupted Iraqi port operations and driven oil prices above $100/barrel, indicating significant supply chain disruption from ongoing hostilities.",
     "us_fatalities": 0,
-    "all_parties_fatalities": 1
+    "all_parties_fatalities": 1,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 22:32:04",
@@ -176,7 +200,9 @@
     "claude_confidence": "High",
     "claude_summary": "Active warfare is underway between the US, Iran, and Israel with multiple fronts including direct strikes, tanker attacks disrupting oil infrastructure, and coordinated rocket attacks. US troops have suffered casualties including brain injuries and amputations, while civilian infrastructure including an Iranian school has been struck, indicating significant escalation beyond proxy conflicts.",
     "us_fatalities": 0,
-    "all_parties_fatalities": 1
+    "all_parties_fatalities": 1,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 22:35:23",
@@ -190,7 +216,9 @@
     "claude_confidence": "High",
     "claude_summary": "The US and Israel are conducting active military operations against Iran on day 12 of sustained conflict. US troops have suffered casualties including brain injuries and amputations from Iranian strikes, while attacks have expanded to Iraqi oil infrastructure with at least one confirmed death in Basra. Trump claims the war is won but refuses early withdrawal as oil prices spike and emergency reserves are being released.",
     "us_fatalities": 0,
-    "all_parties_fatalities": 1
+    "all_parties_fatalities": 1,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 22:39:17",
@@ -204,7 +232,9 @@
     "claude_confidence": "High",
     "claude_summary": "The US and Israel are conducting active military operations against Iran on day 12 of conflict, with confirmed US casualties including brain injuries and amputations from Iranian strikes. Regional infrastructure is under attack with Iraqi oil ports suspended after tanker strikes, and the conflict shows signs of prolonged duration with emergency oil releases planned for months ahead.",
     "us_fatalities": 0,
-    "all_parties_fatalities": 1
+    "all_parties_fatalities": 1,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 22:45:07",
@@ -218,7 +248,9 @@
     "claude_confidence": "High",
     "claude_summary": "Active military conflict is underway between the US and Iran, with ongoing strikes, significant financial costs, and claims of victory being disputed. Iran has attacked GCC nations and Jordan, prompting UN condemnation, while oil infrastructure burns and Iranian strikes continue despite US claims the war is won.",
     "us_fatalities": 0,
-    "all_parties_fatalities": 1
+    "all_parties_fatalities": 1,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-12 23:20:22",
@@ -232,7 +264,9 @@
     "claude_confidence": "High",
     "claude_summary": "Active military conflict is underway between Iran and US/regional allies. Iranian strikes have hit civilian infrastructure in Bahrain and disrupted Gulf shipping. Energy markets are reacting sharply to ongoing hostilities.",
     "us_fatalities": 0,
-    "all_parties_fatalities": 0
+    "all_parties_fatalities": 0,
+    "war_cost_total_bn": 44.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-13 00:00:12",
@@ -248,7 +282,9 @@
     "us_fatalities": 0,
     "all_parties_fatalities": 1,
     "maritime_incidents": 10,
-    "maritime_high_severity": 3
+    "maritime_high_severity": 3,
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-13 00:01:25",
@@ -264,7 +300,9 @@
     "us_fatalities": 0,
     "all_parties_fatalities": 1,
     "maritime_incidents": 10,
-    "maritime_high_severity": 3
+    "maritime_high_severity": 3,
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-13 00:02:15",
@@ -280,7 +318,9 @@
     "us_fatalities": 0,
     "all_parties_fatalities": 1,
     "maritime_incidents": 10,
-    "maritime_high_severity": 3
+    "maritime_high_severity": 3,
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-13 00:04:30",
@@ -299,7 +339,9 @@
     "maritime_high_severity": 3,
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
-    "jmic_vessel_incidents": 0
+    "jmic_vessel_incidents": 0,
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-13 00:09:34",
@@ -318,7 +360,9 @@
     "maritime_high_severity": 3,
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
-    "jmic_vessel_incidents": 0
+    "jmic_vessel_incidents": 0,
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-13 00:16:31",
@@ -337,7 +381,9 @@
     "maritime_high_severity": 3,
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
-    "jmic_vessel_incidents": 0
+    "jmic_vessel_incidents": 0,
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-13 00:26:01",
@@ -357,8 +403,8 @@
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0,
-    "war_cost_total_bn": 37.8,
-    "war_cost_daily_bn": 0.2
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-13 12:28:50",
@@ -378,8 +424,8 @@
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0,
-    "war_cost_total_bn": 37.8,
-    "war_cost_daily_bn": 0.2
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
   },
   {
     "timestamp": "2026-03-13 12:37:18",
@@ -399,7 +445,28 @@
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0,
-    "war_cost_total_bn": 37.8,
-    "war_cost_daily_bn": 0.2
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
+  },
+  {
+    "timestamp": "2026-03-13 12:43:41",
+    "overall_status": "SEVERE",
+    "oil_price": 96.71,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.02,
+    "gdelt_events": 317,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Direct US-Israel strike has reportedly killed Iran's Supreme Leader Khamenei, triggering succession crisis and aggressive response from new leadership. Iran has closed the Strait of Hormuz and threatens to open new fronts, while regional violence spreads to North America with synagogue attacks.",
+    "us_fatalities": 0,
+    "all_parties_fatalities": 0,
+    "maritime_incidents": 8,
+    "maritime_high_severity": 3,
+    "jmic_threat_level": null,
+    "jmic_tanker_transits": null,
+    "jmic_vessel_incidents": 0,
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
   }
 ]
