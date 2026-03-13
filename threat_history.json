@@ -265,5 +265,21 @@
     "all_parties_fatalities": 1,
     "maritime_incidents": 10,
     "maritime_high_severity": 3
+  },
+  {
+    "timestamp": "2026-03-13 00:02:15",
+    "overall_status": "SEVERE",
+    "oil_price": 95.32,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.34,
+    "gdelt_events": 208,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "The US and Iran are engaged in active military conflict with direct strikes occurring. Oil prices have surged above $100 due to tanker attacks in Iraqi waters, and Trump has stated US forces have exhausted targets in Iran, indicating extensive bombing campaigns have already occurred. Critical infrastructure attacks and civilian impact are evident through fuel shortages affecting multiple countries.",
+    "us_fatalities": 0,
+    "all_parties_fatalities": 1,
+    "maritime_incidents": 10,
+    "maritime_high_severity": 3
   }
 ]
