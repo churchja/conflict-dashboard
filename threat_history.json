@@ -468,5 +468,26 @@
     "jmic_vessel_incidents": 0,
     "war_cost_total_bn": 45.0,
     "war_cost_daily_bn": 1.0
+  },
+  {
+    "timestamp": "2026-03-13 12:50:44",
+    "overall_status": "SEVERE",
+    "oil_price": 96.9,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.02,
+    "gdelt_events": 317,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "A US-Israel strike has targeted Iran, with headlines referencing the wife of the late Khamenei and dismissing death claims, indicating a significant military action has occurred. Simultaneous domestic terrorism targeting a synagogue in Michigan and Iranian-linked cyberattacks on the US suggest coordinated escalation across multiple domains.",
+    "us_fatalities": 0,
+    "all_parties_fatalities": 1,
+    "maritime_incidents": 8,
+    "maritime_high_severity": 3,
+    "jmic_threat_level": null,
+    "jmic_tanker_transits": null,
+    "jmic_vessel_incidents": 0,
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
   }
 ]
