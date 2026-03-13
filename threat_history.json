@@ -300,5 +300,24 @@
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0
+  },
+  {
+    "timestamp": "2026-03-13 00:09:34",
+    "overall_status": "SEVERE",
+    "oil_price": 95.39,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -2.93,
+    "gdelt_events": 139,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Iran and the US are engaged in active military conflict with direct strikes causing civilian and military casualties. Iranian forces are conducting deadly attacks on fuel tankers and commercial shipping, while cyberattacks target critical US infrastructure. The conflict is causing global fuel supply disruptions and affecting civilian populations across multiple countries.",
+    "us_fatalities": 0,
+    "all_parties_fatalities": 2,
+    "maritime_incidents": 10,
+    "maritime_high_severity": 3,
+    "jmic_threat_level": null,
+    "jmic_tanker_transits": null,
+    "jmic_vessel_incidents": 0
   }
 ]
