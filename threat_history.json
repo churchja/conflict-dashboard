@@ -219,5 +219,19 @@
     "claude_summary": "Active military conflict is underway between the US and Iran, with ongoing strikes, significant financial costs, and claims of victory being disputed. Iran has attacked GCC nations and Jordan, prompting UN condemnation, while oil infrastructure burns and Iranian strikes continue despite US claims the war is won.",
     "us_fatalities": 0,
     "all_parties_fatalities": 1
+  },
+  {
+    "timestamp": "2026-03-12 23:20:22",
+    "overall_status": "SEVERE",
+    "oil_price": 95.59,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.3,
+    "gdelt_events": 144,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Active military conflict is underway between Iran and US/regional allies. Iranian strikes have hit civilian infrastructure in Bahrain and disrupted Gulf shipping. Energy markets are reacting sharply to ongoing hostilities.",
+    "us_fatalities": 0,
+    "all_parties_fatalities": 0
   }
 ]
