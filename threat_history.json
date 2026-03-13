@@ -205,5 +205,19 @@
     "claude_summary": "The US and Israel are conducting active military operations against Iran on day 12 of conflict, with confirmed US casualties including brain injuries and amputations from Iranian strikes. Regional infrastructure is under attack with Iraqi oil ports suspended after tanker strikes, and the conflict shows signs of prolonged duration with emergency oil releases planned for months ahead.",
     "us_fatalities": 0,
     "all_parties_fatalities": 1
+  },
+  {
+    "timestamp": "2026-03-12 22:45:07",
+    "overall_status": "SEVERE",
+    "oil_price": 95.49,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.1,
+    "gdelt_events": 171,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Active military conflict is underway between the US and Iran, with ongoing strikes, significant financial costs, and claims of victory being disputed. Iran has attacked GCC nations and Jordan, prompting UN condemnation, while oil infrastructure burns and Iranian strikes continue despite US claims the war is won.",
+    "us_fatalities": 0,
+    "all_parties_fatalities": 1
   }
 ]
