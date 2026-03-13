@@ -359,5 +359,26 @@
     "jmic_vessel_incidents": 0,
     "war_cost_total_bn": 37.8,
     "war_cost_daily_bn": 0.2
+  },
+  {
+    "timestamp": "2026-03-13 12:28:50",
+    "overall_status": "SEVERE",
+    "oil_price": 96.95,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.0,
+    "gdelt_events": 350,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "The United States and Iran are engaged in active military conflict with direct strikes occurring. A new Iranian Supreme Leader is in hiding and threatening retaliation, while the U.S. has conducted strikes including one that hit an Iranian elementary school. Oil prices have spiked above $100/barrel indicating major market disruption from ongoing war.",
+    "us_fatalities": 0,
+    "all_parties_fatalities": 0,
+    "maritime_incidents": 9,
+    "maritime_high_severity": 3,
+    "jmic_threat_level": null,
+    "jmic_tanker_transits": null,
+    "jmic_vessel_incidents": 0,
+    "war_cost_total_bn": 37.8,
+    "war_cost_daily_bn": 0.2
   }
 ]
