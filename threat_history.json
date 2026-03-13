@@ -191,5 +191,19 @@
     "claude_summary": "The US and Israel are conducting active military operations against Iran on day 12 of sustained conflict. US troops have suffered casualties including brain injuries and amputations from Iranian strikes, while attacks have expanded to Iraqi oil infrastructure with at least one confirmed death in Basra. Trump claims the war is won but refuses early withdrawal as oil prices spike and emergency reserves are being released.",
     "us_fatalities": 0,
     "all_parties_fatalities": 1
+  },
+  {
+    "timestamp": "2026-03-12 22:39:17",
+    "overall_status": "SEVERE",
+    "oil_price": 96.26,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.1,
+    "gdelt_events": 171,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "The US and Israel are conducting active military operations against Iran on day 12 of conflict, with confirmed US casualties including brain injuries and amputations from Iranian strikes. Regional infrastructure is under attack with Iraqi oil ports suspended after tanker strikes, and the conflict shows signs of prolonged duration with emergency oil releases planned for months ahead.",
+    "us_fatalities": 0,
+    "all_parties_fatalities": 1
   }
 ]
