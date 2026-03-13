@@ -93,5 +93,19 @@
     "claude_summary": "Active military conflict is underway between the US and Iran with direct strikes on civilian infrastructure, ongoing attacks on critical oil infrastructure in Iraqi waters, and cyberattacks on Western companies. Iran is targeting Gulf airports and oil facilities while the US conducted a deadly strike on an Iranian school, indicating a significant escalation beyond proxy warfare into direct engagement.",
     "us_fatalities": 0,
     "all_parties_fatalities": 1
+  },
+  {
+    "timestamp": "2026-03-12 22:14:53",
+    "overall_status": "SEVERE",
+    "oil_price": 96.21,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.99,
+    "gdelt_events": 143,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Active military conflict is underway between the US and Iran with direct strikes on civilian infrastructure, including a US strike on an Iranian elementary school and Iranian attacks on Gulf airports and Iraqi oil ports. Oil infrastructure is burning, markets are spiking toward $100/barrel, and both sides signal prolonged conflict with no de-escalation in sight.",
+    "us_fatalities": 0,
+    "all_parties_fatalities": 1
   }
 ]
