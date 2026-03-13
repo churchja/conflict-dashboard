@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>US/Iran Conflict Threat Timeline</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Courier New', monospace;
+    background: #0d0d0d;
+    color: #d0d0d0;
+    padding: 28px;
+    min-height: 100vh;
+  }
+  h1 {
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ff3333;
+    margin-bottom: 4px;
+    text-shadow: 0 0 12px rgba(255,51,51,0.4);
+  }
+  .subtitle {
+    font-size: 11px;
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-bottom: 18px;
+  }
+  .card {
+    background: #161616;
+    border: 1px solid #2a2a2a;
+    border-radius: 6px;
+    padding: 20px;
+  }
+  .card.full { grid-column: 1 / -1; }
+  .card h2 {
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 8px;
+  }
+  .card .note {
+    font-size: 10px;
+    color: #555;
+    margin-bottom: 14px;
+    font-style: italic;
+  }
+  .stat-row {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 18px;
+  }
+  .stat {
+    background: #161616;
+    border: 1px solid #2a2a2a;
+    border-radius: 6px;
+    padding: 18px 20px;
+    flex: 1;
+    text-align: center;
+  }
+  .stat .value {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    line-height: 1;
+  }
+  .stat .label {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #777;
+    text-transform: uppercase;
+  }
+  .SEVERE   { color: #ff3333; text-shadow: 0 0 8px rgba(255,51,51,0.5); }
+  .MODERATE { color: #ffaa00; text-shadow: 0 0 8px rgba(255,170,0,0.4); }
+  .STABLE   { color: #33ff88; text-shadow: 0 0 8px rgba(51,255,136,0.3); }
+  .latest-summary {
+    background: #161616;
+    border-left: 4px solid #ff3333;
+    padding: 16px 20px;
+    margin-bottom: 18px;
+    font-size: 13px;
+    color: #bbb;
+    line-height: 1.7;
+    border-radius: 0 6px 6px 0;
+  }
+  .latest-summary strong { color: #ffffff; }
+  .tone-legend {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+  .tone-legend span {
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+  }
+  canvas { max-height: 300px; }
+</style>
+</head>
+<body>
+
+<h1>US / Iran Conflict Assessment</h1>
+<div class="subtitle">Threat Timeline Dashboard &mdash; Updated each run</div>
+
+<div class="stat-row" id="stats"></div>
+<div class="latest-summary" id="latest-summary"></div>
+
+<div class="grid">
+  <div class="card full">
+    <h2>Overall Threat Level Over Time</h2>
+    <div class="note">STABLE = diplomacy/sanctions only &nbsp;|&nbsp; MODERATE = incidents/proxy activity &nbsp;|&nbsp; SEVERE = direct strikes/confirmed casualties</div>
+    <canvas id="threatChart"></canvas>
+  </div>
+  <div class="card">
+    <h2>WTI Crude Oil Price (USD)</h2>
+    <canvas id="oilChart"></canvas>
+  </div>
+  <div class="card">
+    <h2>GDELT Media Tone Score</h2>
+    <div class="tone-legend">
+      <span style="background:#1a3a1a;color:#33ff88">0 to -3 Mildly Negative</span>
+      <span style="background:#3a2a00;color:#ffaa00">-3 to -8 Hostile</span>
+      <span style="background:#3a1010;color:#ff3333">Below -8 Crisis</span>
+    </div>
+    <div class="note">Scale: 0 (neutral) to -100 (most hostile). Lower = more negative global media coverage.</div>
+    <canvas id="toneChart"></canvas>
+  </div>
+  <div class="card full">
+    <h2>AI-Estimated Fatalities</h2>
+    <div class="note">Estimated by Claude AI from headline language. Not verified counts. US/Coalition (orange) vs All Parties — US, Iran, Iraq, proxies, civilians (red).</div>
+    <canvas id="fatalChart"></canvas>
+  </div>
+</div>
+
+<script>
+const history = [{"timestamp": "2026-03-12 20:58:17", "overall_status": "SEVERE", "oil_price": 95.89, "oil_status": "Elevated", "casualty_level": "High/Severe", "gdelt_tone": -3.09, "gdelt_events": 159, "claude_threat": "SEVERE", "claude_confidence": "High", "claude_summary": "Active military conflict is underway between the US and Iran, with direct kinetic operations in progress. The situation includes attacks on maritime vessels in critical waterways, cyberattacks on US infrastructure, and significant economic disruption from sustained combat operations.", "est_fatalities": 1}, {"timestamp": "2026-03-12 21:07:53", "overall_status": "SEVERE", "oil_price": 95.56, "oil_status": "Elevated", "casualty_level": "High/Severe", "gdelt_tone": -2.74, "gdelt_events": 139, "claude_threat": "SEVERE", "claude_confidence": "High", "claude_summary": "An active war is ongoing between Israel/US and Iran following the assassination of Supreme Leader Khamenei and top military officials. The conflict has caused mass displacement of over 3 million Iranians, ongoing military strikes including attacks on tankers, and global fuel crisis affecting Asia with emergency economic measures being implemented.", "est_fatalities": 50000}, {"timestamp": "2026-03-12 21:12:07", "overall_status": "SEVERE", "oil_price": 95.51, "oil_status": "Elevated", "casualty_level": "High/Severe", "gdelt_tone": -2.74, "gdelt_events": 139, "claude_threat": "SEVERE", "claude_confidence": "High", "claude_summary": "An active war between Israel/US and Iran is underway, featuring the assassination of Supreme Leader Khamenei and top Iranian military officials, ongoing Iranian strikes, and massive civilian displacement. The conflict has created a global fuel crisis affecting Asia and shows no signs of de-escalation according to statements from Trump and Iran.", "est_fatalities": 50000}, {"timestamp": "2026-03-12 21:18:47", "overall_status": "SEVERE", "oil_price": 95.51, "oil_status": "Elevated", "casualty_level": "High/Severe", "gdelt_tone": -2.74, "gdelt_events": 139, "claude_threat": "SEVERE", "claude_confidence": "High", "claude_summary": "Iran has conducted attacks on Gulf states prompting UN Security Council intervention, threatened drone attacks on US targets (Oscars), and proxy forces (Hezbollah) are actively exchanging fire with Israel. The US is releasing strategic oil reserves in response to supply disruptions, while the UK-US relationship is strained over the conflict, indicating a major regional crisis is underway.", "us_fatalities": 0, "all_parties_fatalities": 0}, {"timestamp": "2026-03-12 21:23:50", "overall_status": "SEVERE", "oil_price": 95.6, "oil_status": "Elevated", "casualty_level": "High/Severe", "gdelt_tone": -3.09, "gdelt_events": 142, "claude_threat": "SEVERE", "claude_confidence": "High", "claude_summary": "Active warfare is underway between Israel, Iran, and proxies with massive civilian casualties and leadership assassinations. Iran is conducting attacks on Gulf states and threatening Western targets, while over 3 million people are displaced by war. Both Trump and Iran signal no quick resolution to ongoing hostilities.", "us_fatalities": 1, "all_parties_fatalities": 171}, {"timestamp": "2026-03-12 21:39:27", "overall_status": "SEVERE", "oil_price": 95.45, "oil_status": "Elevated", "casualty_level": "High/Severe", "gdelt_tone": -2.95, "gdelt_events": 151, "claude_threat": "SEVERE", "claude_confidence": "High", "claude_summary": "The United States is engaged in active warfare with Iran, involving direct military strikes, massive displacement, and significant casualties including the bombing of a civilian school. The conflict has destabilized regional oil infrastructure, triggered emergency oil reserve releases, and created widespread humanitarian crisis with over 3 million displaced persons.", "us_fatalities": 0, "all_parties_fatalities": 171}];
+const isoLabels = ["2026-03-12 20:58:17", "2026-03-12 21:07:53", "2026-03-12 21:12:07", "2026-03-12 21:18:47", "2026-03-12 21:23:50", "2026-03-12 21:39:27"].map(t => t.replace(' ', 'T'));
+
+const threatScores    = [3, 3, 3, 3, 3, 3];
+const oilPrices       = [95.89, 95.56, 95.51, 95.51, 95.6, 95.45];
+const gdeltTones      = [-3.09, -2.74, -2.74, -2.74, -3.09, -2.95];
+const usFatalities    = [0, 0, 0, 0, 1, 0];
+const allFatalities   = [0, 0, 0, 0, 171, 171];
+const summaries       = ["Active military conflict is underway between the US and Iran, with direct kinetic operations in progress. The situation includes attacks on maritime vessels in critical waterways, cyberattacks on US infrastructure, and significant economic disruption from sustained combat operations.", "An active war is ongoing between Israel/US and Iran following the assassination of Supreme Leader Khamenei and top military officials. The conflict has caused mass displacement of over 3 million Iranians, ongoing military strikes including attacks on tankers, and global fuel crisis affecting Asia with emergency economic measures being implemented.", "An active war between Israel/US and Iran is underway, featuring the assassination of Supreme Leader Khamenei and top Iranian military officials, ongoing Iranian strikes, and massive civilian displacement. The conflict has created a global fuel crisis affecting Asia and shows no signs of de-escalation according to statements from Trump and Iran.", "Iran has conducted attacks on Gulf states prompting UN Security Council intervention, threatened drone attacks on US targets (Oscars), and proxy forces (Hezbollah) are actively exchanging fire with Israel. The US is releasing strategic oil reserves in response to supply disruptions, while the UK-US relationship is strained over the conflict, indicating a major regional crisis is underway.", "Active warfare is underway between Israel, Iran, and proxies with massive civilian casualties and leadership assassinations. Iran is conducting attacks on Gulf states and threatening Western targets, while over 3 million people are displaced by war. Both Trump and Iran signal no quick resolution to ongoing hostilities.", "The United States is engaged in active warfare with Iran, involving direct military strikes, massive displacement, and significant casualties including the bombing of a civilian school. The conflict has destabilized regional oil infrastructure, triggered emergency oil reserve releases, and created widespread humanitarian crisis with over 3 million displaced persons."];
+
+const threatLabels = {1:'STABLE', 2:'MODERATE', 3:'SEVERE'};
+const threatColors = {1:'#33ff88', 2:'#ffaa00', 3:'#ff3333'};
+
+// ── Stats bar ──
+const latest      = history[history.length - 1];
+const latestThreat = latest.overall_status || 'N/A';
+const latestOil    = latest.oil_price ? '$' + latest.oil_price.toFixed(2) : 'N/A';
+const severeCount  = history.filter(e => e.overall_status === 'SEVERE').length;
+document.getElementById('stats').innerHTML = `
+  <div class="stat">
+    <div class="value ${latestThreat}">${latestThreat}</div>
+    <div class="label">Current Threat</div>
+  </div>
+  <div class="stat">
+    <div class="value" style="color:#ffcc44">${latestOil}</div>
+    <div class="label">WTI Oil Price</div>
+  </div>
+  <div class="stat">
+    <div class="value SEVERE">${severeCount}</div>
+    <div class="label">SEVERE Readings</div>
+  </div>
+  <div class="stat">
+    <div class="value" style="color:#aaaaaa">${history.length}</div>
+    <div class="label">Total Runs</div>
+  </div>
+`;
+
+// ── Latest summary ──
+const latestSummary = latest.claude_summary || 'No AI summary available.';
+document.getElementById('latest-summary').innerHTML =
+  `<strong>Latest Assessment (${latest.timestamp}):</strong> ${latestSummary}`;
+
+// ── Shared axis defaults ──
+const xAxis = {
+  type: 'time',
+  time: {
+    tooltipFormat: 'MMM d yyyy HH:mm',
+    displayFormats: {
+      minute: 'HH:mm',
+      hour:   'MMM d HH:mm',
+      day:    'MMM d',
+      week:   'MMM d',
+      month:  'MMM yyyy',
+    }
+  },
+  ticks: {
+    color: '#666',
+    font: { size: 9 },
+    maxRotation: 45,
+    autoSkip: true,
+    maxTicksLimit: 12,
+  },
+  grid: { color: '#222' }
+};
+const yAxis = {
+  ticks: { color: '#666' },
+  grid:  { color: '#222' }
+};
+
+// ── Threat level chart ──
+new Chart(document.getElementById('threatChart'), {
+  type: 'line',
+  data: {
+    labels: isoLabels,
+    datasets: [{
+      label: 'Threat Level',
+      data: threatScores,
+      borderColor: '#ff3333',
+      backgroundColor: 'rgba(255,51,51,0.07)',
+      pointBackgroundColor: threatScores.map(s => threatColors[s]),
+      pointBorderColor: threatScores.map(s => threatColors[s]),
+      pointRadius: 6,
+      pointHoverRadius: 9,
+      fill: true,
+      tension: 0,
+      stepped: 'before',
+      borderWidth: 2,
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { display: true, labels: { color: '#888', font: { size: 10 } } },
+      tooltip: {
+        callbacks: {
+          label: ctx => threatLabels[ctx.raw] + ' — ' + (summaries[ctx.dataIndex] || '').slice(0,90) + '...'
+        }
+      }
+    },
+    scales: {
+      x: xAxis,
+      y: {
+        min: 0.5, max: 3.5,
+        ticks: {
+          color: '#888',
+          font: { size: 11, weight: 'bold' },
+          callback: v => threatLabels[v] || '',
+          stepSize: 1,
+        },
+        grid: { color: '#222' }
+      }
+    }
+  }
+});
+
+// ── Oil price chart ──
+new Chart(document.getElementById('oilChart'), {
+  type: 'line',
+  data: {
+    labels: isoLabels,
+    datasets: [{
+      label: 'Price (USD)',
+      data: oilPrices,
+      borderColor: '#ffcc44',
+      backgroundColor: 'rgba(255,204,68,0.07)',
+      fill: true,
+      tension: 0.3,
+      pointRadius: 4,
+      pointBackgroundColor: '#ffcc44',
+      borderWidth: 2,
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { display: true, labels: { color: '#888', font: { size: 10 } } },
+      tooltip: { callbacks: { label: ctx => '$' + ctx.raw.toFixed(2) } }
+    },
+    scales: {
+      x: xAxis,
+      y: {
+        ticks: { color: '#888', callback: v => '$' + v.toFixed(2) },
+        grid: { color: '#222' }
+      }
+    }
+  }
+});
+
+// ── GDELT tone chart ──
+new Chart(document.getElementById('toneChart'), {
+  type: 'line',
+  data: {
+    labels: isoLabels,
+    datasets: [{
+      label: 'Media Tone (lower = more hostile)',
+      data: gdeltTones,
+      borderColor: '#4d9fff',
+      backgroundColor: 'rgba(77,159,255,0.07)',
+      fill: true,
+      tension: 0.3,
+      pointRadius: 4,
+      pointBackgroundColor: gdeltTones.map(v =>
+        v < -8 ? '#ff3333' : v < -3 ? '#ffaa00' : '#33ff88'
+      ),
+      borderWidth: 2,
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { display: true, labels: { color: '#888', font: { size: 10 } } },
+      tooltip: {
+        callbacks: {
+          label: ctx => {
+            const v = ctx.raw;
+            const label = v < -8 ? 'CRISIS-LEVEL' : v < -3 ? 'HOSTILE' : v < 0 ? 'NEGATIVE' : 'NEUTRAL';
+            return `Tone: ${v.toFixed(2)} (${label})`;
+          }
+        }
+      }
+    },
+    scales: {
+      x: xAxis,
+      y: {
+        ticks: { color: '#888' },
+        grid: { color: '#222' }
+      }
+    }
+  }
+});
+
+// ── Fatalities chart (dual dataset) ──
+const maxFat = Math.max(...allFatalities, ...usFatalities, 10);
+new Chart(document.getElementById('fatalChart'), {
+  type: 'bar',
+  data: {
+    labels: isoLabels,
+    datasets: [
+      {
+        label: 'All Parties (US + Iran + Iraq + proxies + civilians)',
+        data: allFatalities,
+        backgroundColor: 'rgba(255,51,51,0.75)',
+        borderColor: '#ff3333',
+        borderWidth: 1,
+        borderRadius: 3,
+      },
+      {
+        label: 'US / Coalition Only',
+        data: usFatalities,
+        backgroundColor: 'rgba(255,170,0,0.85)',
+        borderColor: '#ffaa00',
+        borderWidth: 1,
+        borderRadius: 3,
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: {
+        display: true,
+        labels: { color: '#aaa', font: { size: 10 }, padding: 16 }
+      },
+      tooltip: {
+        callbacks: {
+          label: ctx => ctx.dataset.label + ': ' + ctx.raw + ' (AI est.)'
+        }
+      }
+    },
+    scales: {
+      x: xAxis,
+      y: {
+        min: 0,
+        suggestedMax: Math.ceil(maxFat * 1.25 / 10) * 10,
+        ticks: { color: '#888', stepSize: Math.max(10, Math.ceil(maxFat / 5 / 10) * 10) },
+        grid: { color: '#222' }
+      }
+    }
+  }
+});
+</script>
+</body>
+</html>

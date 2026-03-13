@@ -1,0 +1,83 @@
+[
+  {
+    "timestamp": "2026-03-12 20:58:17",
+    "overall_status": "SEVERE",
+    "oil_price": 95.89,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.09,
+    "gdelt_events": 159,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Active military conflict is underway between the US and Iran, with direct kinetic operations in progress. The situation includes attacks on maritime vessels in critical waterways, cyberattacks on US infrastructure, and significant economic disruption from sustained combat operations.",
+    "est_fatalities": 1
+  },
+  {
+    "timestamp": "2026-03-12 21:07:53",
+    "overall_status": "SEVERE",
+    "oil_price": 95.56,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -2.74,
+    "gdelt_events": 139,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "An active war is ongoing between Israel/US and Iran following the assassination of Supreme Leader Khamenei and top military officials. The conflict has caused mass displacement of over 3 million Iranians, ongoing military strikes including attacks on tankers, and global fuel crisis affecting Asia with emergency economic measures being implemented.",
+    "est_fatalities": 50000
+  },
+  {
+    "timestamp": "2026-03-12 21:12:07",
+    "overall_status": "SEVERE",
+    "oil_price": 95.51,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -2.74,
+    "gdelt_events": 139,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "An active war between Israel/US and Iran is underway, featuring the assassination of Supreme Leader Khamenei and top Iranian military officials, ongoing Iranian strikes, and massive civilian displacement. The conflict has created a global fuel crisis affecting Asia and shows no signs of de-escalation according to statements from Trump and Iran.",
+    "est_fatalities": 50000
+  },
+  {
+    "timestamp": "2026-03-12 21:18:47",
+    "overall_status": "SEVERE",
+    "oil_price": 95.51,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -2.74,
+    "gdelt_events": 139,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Iran has conducted attacks on Gulf states prompting UN Security Council intervention, threatened drone attacks on US targets (Oscars), and proxy forces (Hezbollah) are actively exchanging fire with Israel. The US is releasing strategic oil reserves in response to supply disruptions, while the UK-US relationship is strained over the conflict, indicating a major regional crisis is underway.",
+    "us_fatalities": 0,
+    "all_parties_fatalities": 0
+  },
+  {
+    "timestamp": "2026-03-12 21:23:50",
+    "overall_status": "SEVERE",
+    "oil_price": 95.6,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.09,
+    "gdelt_events": 142,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Active warfare is underway between Israel, Iran, and proxies with massive civilian casualties and leadership assassinations. Iran is conducting attacks on Gulf states and threatening Western targets, while over 3 million people are displaced by war. Both Trump and Iran signal no quick resolution to ongoing hostilities.",
+    "us_fatalities": 1,
+    "all_parties_fatalities": 171
+  },
+  {
+    "timestamp": "2026-03-12 21:39:27",
+    "overall_status": "SEVERE",
+    "oil_price": 95.45,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -2.95,
+    "gdelt_events": 151,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "The United States is engaged in active warfare with Iran, involving direct military strikes, massive displacement, and significant casualties including the bombing of a civilian school. The conflict has destabilized regional oil infrastructure, triggered emergency oil reserve releases, and created widespread humanitarian crisis with over 3 million displaced persons.",
+    "us_fatalities": 0,
+    "all_parties_fatalities": 171
+  }
+]
