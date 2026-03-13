@@ -14,7 +14,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "us_fatalities": 13,
-    "all_parties_fatalities": 1200
+    "all_parties_fatalities": 1200,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 21:07:53",
@@ -31,7 +33,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "us_fatalities": 13,
-    "all_parties_fatalities": 1200
+    "all_parties_fatalities": 1200,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 21:12:07",
@@ -48,7 +52,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "us_fatalities": 13,
-    "all_parties_fatalities": 1200
+    "all_parties_fatalities": 1200,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 21:18:47",
@@ -64,7 +70,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
     "war_cost_total_bn": 44.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 21:23:50",
@@ -80,7 +88,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
     "war_cost_total_bn": 44.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 21:39:27",
@@ -96,7 +106,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
     "war_cost_total_bn": 44.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 22:12:10",
@@ -112,7 +124,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
     "war_cost_total_bn": 44.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 22:14:53",
@@ -128,7 +142,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
     "war_cost_total_bn": 44.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 22:15:23",
@@ -144,7 +160,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
     "war_cost_total_bn": 44.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 22:18:24",
@@ -160,7 +178,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
     "war_cost_total_bn": 44.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 22:28:43",
@@ -176,7 +196,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
     "war_cost_total_bn": 44.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 22:31:08",
@@ -192,7 +214,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
     "war_cost_total_bn": 44.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 22:32:04",
@@ -208,7 +232,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
     "war_cost_total_bn": 44.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 22:35:23",
@@ -224,7 +250,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
     "war_cost_total_bn": 44.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 22:39:17",
@@ -240,7 +268,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
     "war_cost_total_bn": 44.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 22:45:07",
@@ -256,7 +286,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
     "war_cost_total_bn": 44.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-12 23:20:22",
@@ -272,7 +304,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
     "war_cost_total_bn": 44.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "maritime_incidents": 0,
+    "maritime_high_severity": 0
   },
   {
     "timestamp": "2026-03-13 00:00:12",
@@ -404,8 +438,8 @@
     "claude_summary": "Direct military conflict is actively underway between Iran and the US/allies. Iran has conducted deadly strikes on fuel tankers killing at least one civilian, launched debilitating cyberattacks on US infrastructure, and the Revolutionary Guards have vowed continued attacks. Trump claims Iran is near defeat while Iran threatens prolonged war, indicating an active shooting war with escalating economic impacts including fuel shortages affecting multiple countries.",
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
-    "maritime_incidents": 9,
-    "maritime_high_severity": 2,
+    "maritime_incidents": 10,
+    "maritime_high_severity": 3,
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0,
@@ -425,7 +459,7 @@
     "claude_summary": "The United States and Iran are engaged in active military conflict with direct strikes occurring. A new Iranian Supreme Leader is in hiding and threatening retaliation, while the U.S. has conducted strikes including one that hit an Iranian elementary school. Oil prices have spiked above $100/barrel indicating major market disruption from ongoing war.",
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
-    "maritime_incidents": 9,
+    "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
@@ -446,7 +480,7 @@
     "claude_summary": "Active military conflict is underway between the US, Israel, and Iran. Iran has closed the Strait of Hormuz and attacked international airports and commercial ships, while economic impacts including oil over $100/barrel and rising mortgage rates indicate major war disruption. Domestic security threats include synagogue attacks potentially linked to the conflict.",
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
-    "maritime_incidents": 8,
+    "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
@@ -467,7 +501,7 @@
     "claude_summary": "Direct US-Israel strike has reportedly killed Iran's Supreme Leader Khamenei, triggering succession crisis and aggressive response from new leadership. Iran has closed the Strait of Hormuz and threatens to open new fronts, while regional violence spreads to North America with synagogue attacks.",
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
-    "maritime_incidents": 8,
+    "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
@@ -488,7 +522,7 @@
     "claude_summary": "A US-Israel strike has targeted Iran, with headlines referencing the wife of the late Khamenei and dismissing death claims, indicating a significant military action has occurred. Simultaneous domestic terrorism targeting a synagogue in Michigan and Iranian-linked cyberattacks on the US suggest coordinated escalation across multiple domains.",
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
-    "maritime_incidents": 8,
+    "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
@@ -509,7 +543,7 @@
     "claude_summary": "A US-Israel strike has targeted Iran, reportedly affecting Khamenei's wife, indicating direct military action against high-value targets. Cyberattacks are escalating against US infrastructure, and domestic terror incidents at a US synagogue suggest spillover violence. Billboards in Israel celebrating Trump suggest successful kinetic operations.",
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
-    "maritime_incidents": 8,
+    "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "jmic_threat_level": null,
     "jmic_tanker_transits": null,
@@ -530,8 +564,8 @@
     "claude_summary": "The situation shows active military escalation with a US-Israel strike killing Iran's Supreme Leader Khamenei, Israeli attacks on central Beirut, and Iran potentially withdrawing from the World Cup amid safety concerns. Cyberattack threats and a synagogue attack in Michigan indicate spillover violence and heightened tensions across multiple domains.",
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
-    "maritime_incidents": 8,
-    "maritime_high_severity": 2,
+    "maritime_incidents": 10,
+    "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
     "war_cost_daily_bn": 1.0
   },
@@ -548,8 +582,8 @@
     "claude_summary": "A US-Israel strike has apparently targeted Iran's Supreme Leader Khamenei, with headlines dismissing claims of his wife's death, indicating a decapitation attempt. Israel is escalating attacks on Beirut, Iran faces pressure to withdraw from the World Cup over safety concerns, and domestic terrorism is occurring at US synagogues. This represents active military escalation with leadership targeting.",
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
-    "maritime_incidents": 8,
-    "maritime_high_severity": 2,
+    "maritime_incidents": 10,
+    "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
     "war_cost_daily_bn": 1.0
   },
@@ -566,7 +600,7 @@
     "claude_summary": "Active warfare is underway with confirmed cyberattacks, military strikes on Lebanon, and references to ongoing 'Iran war' affecting economic conditions. The absence of Iran's alleged new leader during wartime and India's diplomatic intervention signal a major crisis in progress.",
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
-    "maritime_incidents": 9,
+    "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
     "war_cost_daily_bn": 1.0
@@ -584,8 +618,26 @@
     "claude_summary": "Active US-Iran war is ongoing with confirmed military casualties, aircraft losses, and no diplomatic resolution in sight. Iranian leadership vows continued conflict while US experiences combat losses including aircraft crashes in Iraq. Domestic terrorist incidents potentially linked to regional tensions are occurring on US soil.",
     "us_fatalities": 13,
     "all_parties_fatalities": 1200,
-    "maritime_incidents": 9,
-    "maritime_high_severity": 1,
+    "maritime_incidents": 10,
+    "maritime_high_severity": 3,
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
+  },
+  {
+    "timestamp": "2026-03-13 17:59:26",
+    "overall_status": "SEVERE",
+    "oil_price": 98.71,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.19,
+    "gdelt_events": 168,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Direct military engagement is underway between US and Iranian forces, with US firing on Iranian vessels, loss of a US refueling aircraft in Iraq, Iranian missile and drone strikes on regional energy infrastructure and civilian targets, and apparent domestic terror incidents in the US. This represents active warfare with multi-front escalation beyond proxy conflict.",
+    "us_fatalities": 13,
+    "all_parties_fatalities": 1200,
+    "maritime_incidents": 10,
+    "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
     "war_cost_daily_bn": 1.0
   }
