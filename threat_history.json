@@ -730,5 +730,23 @@
     "maritime_high_severity": 3,
     "war_cost_total_bn": 46.0,
     "war_cost_daily_bn": 1.0
+  },
+  {
+    "timestamp": "2026-03-14 15:02:32",
+    "overall_status": "SEVERE",
+    "oil_price": 98.71,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -2.9,
+    "gdelt_events": 149,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Active military conflict between US and Iran is underway with confirmed fatalities, including US crew deaths in a crash and total war deaths exceeding 2,000. Trump administration rhetoric promises intensified strikes with 'no quarter' while Israel conducts ongoing targeting operations as Iranian military degrades.",
+    "us_fatalities": 17,
+    "all_parties_fatalities": 2004,
+    "maritime_incidents": 10,
+    "maritime_high_severity": 3,
+    "war_cost_total_bn": 46.0,
+    "war_cost_daily_bn": 1.0
   }
 ]
