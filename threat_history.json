@@ -658,5 +658,23 @@
     "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
     "war_cost_daily_bn": 1.0
+  },
+  {
+    "timestamp": "2026-03-13 22:04:33",
+    "overall_status": "SEVERE",
+    "oil_price": 98.71,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.23,
+    "gdelt_events": 100,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Active military conflict is underway between the US, Israel, and Iran. Headlines confirm ongoing strikes, military aircraft crashes, leadership transitions under fire, and explicit references to a 'US-Israeli war on Iran.' Regional spillover effects include gas supply disruptions and migration concerns in Europe.",
+    "us_fatalities": 13,
+    "all_parties_fatalities": 2000,
+    "maritime_incidents": 10,
+    "maritime_high_severity": 3,
+    "war_cost_total_bn": 45.0,
+    "war_cost_daily_bn": 1.0
   }
 ]
