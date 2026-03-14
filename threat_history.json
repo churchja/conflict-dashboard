@@ -676,5 +676,23 @@
     "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
     "war_cost_daily_bn": 1.0
+  },
+  {
+    "timestamp": "2026-03-14 01:41:48",
+    "overall_status": "SEVERE",
+    "oil_price": 98.71,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.12,
+    "gdelt_events": 132,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "The US and Israel are conducting a sustained military campaign against Iran now entering its second week, with direct strikes killing Iranian leadership including wounding the new supreme leader. The conflict shows signs of regional spillover with attacks on synagogues potentially linked to Lebanon strikes, fuel shortages, and Pakistan pledging support to Saudi Arabia amid escalating tensions.",
+    "us_fatalities": 13,
+    "all_parties_fatalities": 2000,
+    "maritime_incidents": 10,
+    "maritime_high_severity": 3,
+    "war_cost_total_bn": 46.0,
+    "war_cost_daily_bn": 1.0
   }
 ]
