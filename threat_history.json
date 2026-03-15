@@ -748,5 +748,23 @@
     "maritime_high_severity": 3,
     "war_cost_total_bn": 46.0,
     "war_cost_daily_bn": 1.0
+  },
+  {
+    "timestamp": "2026-03-15 07:00:13",
+    "overall_status": "SEVERE",
+    "oil_price": 98.71,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.24,
+    "gdelt_events": 109,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Active military conflict between US and Iran is ongoing on Day Fifteen of Operation Epic Fury, with direct strikes on critical Iranian infrastructure at Kharg Island and Iranian counterattacks damaging US assets in Saudi Arabia. Diplomatic efforts by France and Italy suggest international concern over Hormuz Strait closure, while direct threats are being exchanged between Trump and Iran over strategic targets.",
+    "us_fatalities": 17,
+    "all_parties_fatalities": 2004,
+    "maritime_incidents": 10,
+    "maritime_high_severity": 3,
+    "war_cost_total_bn": 47.0,
+    "war_cost_daily_bn": 1.0
   }
 ]
