@@ -766,5 +766,23 @@
     "maritime_high_severity": 3,
     "war_cost_total_bn": 47.0,
     "war_cost_daily_bn": 1.0
+  },
+  {
+    "timestamp": "2026-03-15 15:19:36",
+    "overall_status": "SEVERE",
+    "oil_price": 98.71,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -3.32,
+    "gdelt_events": 146,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Active warfare continues into its third week with direct US-Iran hostilities, confirmed American casualties in Iraq, Iranian retaliation at scale that surprised US leadership, and threats to critical Strait of Hormuz shipping. Gulf allies are reportedly furious, shipping is being diverted, and Iran claims US attacks originated from UAE territory.",
+    "us_fatalities": 17,
+    "all_parties_fatalities": 2004,
+    "maritime_incidents": 10,
+    "maritime_high_severity": 3,
+    "war_cost_total_bn": 47.0,
+    "war_cost_daily_bn": 1.0
   }
 ]
