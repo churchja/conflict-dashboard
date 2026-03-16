@@ -16,7 +16,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 2000,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 21:07:53",
@@ -35,7 +37,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 2000,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 21:12:07",
@@ -54,7 +58,9 @@
     "us_fatalities": 13,
     "all_parties_fatalities": 2000,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 21:18:47",
@@ -72,7 +78,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 21:23:50",
@@ -90,7 +98,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 21:39:27",
@@ -108,7 +118,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 22:12:10",
@@ -126,7 +138,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 22:14:53",
@@ -144,7 +158,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 22:15:23",
@@ -162,7 +178,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 22:18:24",
@@ -180,7 +198,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 22:28:43",
@@ -198,7 +218,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 22:31:08",
@@ -216,7 +238,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 22:32:04",
@@ -234,7 +258,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 22:35:23",
@@ -252,7 +278,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 22:39:17",
@@ -270,7 +298,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 22:45:07",
@@ -288,7 +318,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-12 23:20:22",
@@ -306,7 +338,9 @@
     "war_cost_total_bn": 44.0,
     "war_cost_daily_bn": 1.0,
     "maritime_incidents": 0,
-    "maritime_high_severity": 0
+    "maritime_high_severity": 0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-13 00:00:12",
@@ -324,7 +358,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-13 00:01:25",
@@ -342,7 +378,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-13 00:02:15",
@@ -360,7 +398,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-13 00:04:30",
@@ -377,11 +417,12 @@
     "all_parties_fatalities": 2000,
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
-    "jmic_threat_level": null,
+    "jmic_threat_level": "CRITICAL",
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5
   },
   {
     "timestamp": "2026-03-13 00:09:34",
@@ -398,11 +439,12 @@
     "all_parties_fatalities": 2000,
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
-    "jmic_threat_level": null,
+    "jmic_threat_level": "CRITICAL",
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5
   },
   {
     "timestamp": "2026-03-13 00:16:31",
@@ -419,11 +461,12 @@
     "all_parties_fatalities": 2000,
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
-    "jmic_threat_level": null,
+    "jmic_threat_level": "CRITICAL",
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5
   },
   {
     "timestamp": "2026-03-13 00:26:01",
@@ -440,11 +483,12 @@
     "all_parties_fatalities": 2000,
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
-    "jmic_threat_level": null,
+    "jmic_threat_level": "CRITICAL",
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5
   },
   {
     "timestamp": "2026-03-13 12:28:50",
@@ -461,11 +505,12 @@
     "all_parties_fatalities": 2000,
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
-    "jmic_threat_level": null,
+    "jmic_threat_level": "CRITICAL",
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5
   },
   {
     "timestamp": "2026-03-13 12:37:18",
@@ -482,11 +527,12 @@
     "all_parties_fatalities": 2000,
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
-    "jmic_threat_level": null,
+    "jmic_threat_level": "CRITICAL",
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5
   },
   {
     "timestamp": "2026-03-13 12:43:41",
@@ -503,11 +549,12 @@
     "all_parties_fatalities": 2000,
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
-    "jmic_threat_level": null,
+    "jmic_threat_level": "CRITICAL",
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5
   },
   {
     "timestamp": "2026-03-13 12:50:44",
@@ -524,11 +571,12 @@
     "all_parties_fatalities": 2000,
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
-    "jmic_threat_level": null,
+    "jmic_threat_level": "CRITICAL",
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5
   },
   {
     "timestamp": "2026-03-13 12:52:18",
@@ -545,11 +593,12 @@
     "all_parties_fatalities": 2000,
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
-    "jmic_threat_level": null,
+    "jmic_threat_level": "CRITICAL",
     "jmic_tanker_transits": null,
     "jmic_vessel_incidents": 0,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5
   },
   {
     "timestamp": "2026-03-13 12:56:06",
@@ -567,7 +616,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-13 13:00:16",
@@ -585,7 +636,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-13 13:05:17",
@@ -603,7 +656,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-13 17:51:31",
@@ -621,7 +676,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-13 17:59:26",
@@ -639,7 +696,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-13 18:06:07",
@@ -657,7 +716,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-13 22:04:33",
@@ -675,7 +736,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 45.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-14 01:41:48",
@@ -693,7 +756,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 46.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-14 05:39:02",
@@ -711,7 +776,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 46.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-14 14:57:56",
@@ -729,7 +796,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 46.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-14 15:02:32",
@@ -747,7 +816,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 46.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-15 07:00:13",
@@ -765,7 +836,9 @@
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
     "war_cost_total_bn": 47.0,
-    "war_cost_daily_bn": 1.0
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
   },
   {
     "timestamp": "2026-03-15 15:19:36",
@@ -782,6 +855,28 @@
     "all_parties_fatalities": 2004,
     "maritime_incidents": 10,
     "maritime_high_severity": 3,
+    "war_cost_total_bn": 47.0,
+    "war_cost_daily_bn": 1.0,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-03-15 19:24:35",
+    "overall_status": "SEVERE",
+    "oil_price": 96.04,
+    "oil_status": "Elevated",
+    "casualty_level": "High/Severe",
+    "gdelt_tone": -2.79,
+    "gdelt_events": 95,
+    "claude_threat": "SEVERE",
+    "claude_confidence": "High",
+    "claude_summary": "Active military escalation is underway with direct US strikes on Iranian infrastructure at Kharg Island and Iranian missile attacks on UAE. Israel characterizes the Iran war as entering a 'decisive phase' indicating imminent or ongoing major operations. A US military fatality (Lt. Col. Brandon Shah) is mentioned alongside widespread regional violence.",
+    "us_fatalities": 17,
+    "all_parties_fatalities": 2004,
+    "maritime_incidents": 20,
+    "maritime_high_severity": 16,
+    "hormuz_daily_transits": 5,
+    "jmic_threat_level": "CRITICAL",
     "war_cost_total_bn": 47.0,
     "war_cost_daily_bn": 1.0
   }
